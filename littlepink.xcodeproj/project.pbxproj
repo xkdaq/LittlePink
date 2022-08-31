@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		DC9B60D328BBC8CF00518BC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9B60D228BBC8CF00518BC9 /* AppDelegate.swift */; };
 		DC9B60D528BBC8CF00518BC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9B60D428BBC8CF00518BC9 /* SceneDelegate.swift */; };
-		DC9B60D728BBC8CF00518BC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9B60D628BBC8CF00518BC9 /* ViewController.swift */; };
 		DC9B60DA28BBC8CF00518BC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9B60D828BBC8CF00518BC9 /* Main.storyboard */; };
 		DC9B60DD28BBC8CF00518BC9 /* littlepink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC9B60DB28BBC8CF00518BC9 /* littlepink.xcdatamodeld */; };
 		DC9B60DF28BBC8D100518BC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9B60DE28BBC8D100518BC9 /* Assets.xcassets */; };
 		DC9B60E228BBC8D100518BC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9B60E028BBC8D100518BC9 /* LaunchScreen.storyboard */; };
+		DCD1A09728BDFBB7006FAEF4 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A09628BDFBB7006FAEF4 /* HomeVC.swift */; };
+		DCD1A09928BE0133006FAEF4 /* FollowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A09828BE0133006FAEF4 /* FollowVC.swift */; };
+		DCD1A09B28BE014C006FAEF4 /* DiscoveryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A09A28BE014C006FAEF4 /* DiscoveryVC.swift */; };
+		DCD1A09D28BE0166006FAEF4 /* NearByVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A09C28BE0166006FAEF4 /* NearByVC.swift */; };
+		DCD1A09F28BE05FF006FAEF4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A09E28BE05FF006FAEF4 /* Constants.swift */; };
 		E670F4EA425980FCCC78833B /* Pods_littlepink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AE758A9797008FAD2313F1 /* Pods_littlepink.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,12 +28,16 @@
 		DC9B60CF28BBC8CF00518BC9 /* littlepink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = littlepink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9B60D228BBC8CF00518BC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC9B60D428BBC8CF00518BC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DC9B60D628BBC8CF00518BC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DC9B60D928BBC8CF00518BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC9B60DC28BBC8CF00518BC9 /* littlepink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = littlepink.xcdatamodel; sourceTree = "<group>"; };
 		DC9B60DE28BBC8D100518BC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC9B60E128BBC8D100518BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC9B60E328BBC8D100518BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD1A09628BDFBB7006FAEF4 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		DCD1A09828BE0133006FAEF4 /* FollowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowVC.swift; sourceTree = "<group>"; };
+		DCD1A09A28BE014C006FAEF4 /* DiscoveryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryVC.swift; sourceTree = "<group>"; };
+		DCD1A09C28BE0166006FAEF4 /* NearByVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByVC.swift; sourceTree = "<group>"; };
+		DCD1A09E28BE05FF006FAEF4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +83,9 @@
 			children = (
 				DC9B60D228BBC8CF00518BC9 /* AppDelegate.swift */,
 				DC9B60D428BBC8CF00518BC9 /* SceneDelegate.swift */,
-				DC9B60D628BBC8CF00518BC9 /* ViewController.swift */,
 				DC9B60D828BBC8CF00518BC9 /* Main.storyboard */,
+				DCD1A0A028BE0762006FAEF4 /* Home */,
+				DCD1A09E28BE05FF006FAEF4 /* Constants.swift */,
 				DC9B60DE28BBC8D100518BC9 /* Assets.xcassets */,
 				DC9B60E028BBC8D100518BC9 /* LaunchScreen.storyboard */,
 				DC9B60E328BBC8D100518BC9 /* Info.plist */,
@@ -85,13 +94,23 @@
 			path = littlepink;
 			sourceTree = "<group>";
 		};
+		DCD1A0A028BE0762006FAEF4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DCD1A09C28BE0166006FAEF4 /* NearByVC.swift */,
+				DCD1A09A28BE014C006FAEF4 /* DiscoveryVC.swift */,
+				DCD1A09828BE0133006FAEF4 /* FollowVC.swift */,
+				DCD1A09628BDFBB7006FAEF4 /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		F33BDEEFF3103239A1945A56 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				A7703FEC7DF1F5374B11F2CC /* Pods-littlepink.debug.xcconfig */,
 				D705DBA5193619DB90D79E8E /* Pods-littlepink.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -210,10 +229,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9B60D728BBC8CF00518BC9 /* ViewController.swift in Sources */,
+				DCD1A09D28BE0166006FAEF4 /* NearByVC.swift in Sources */,
 				DC9B60D328BBC8CF00518BC9 /* AppDelegate.swift in Sources */,
+				DCD1A09728BDFBB7006FAEF4 /* HomeVC.swift in Sources */,
+				DCD1A09928BE0133006FAEF4 /* FollowVC.swift in Sources */,
 				DC9B60D528BBC8CF00518BC9 /* SceneDelegate.swift in Sources */,
 				DC9B60DD28BBC8CF00518BC9 /* littlepink.xcdatamodeld in Sources */,
+				DCD1A09B28BE014C006FAEF4 /* DiscoveryVC.swift in Sources */,
+				DCD1A09F28BE05FF006FAEF4 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
