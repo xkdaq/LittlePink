@@ -13,6 +13,8 @@
 		DC9B60DD28BBC8CF00518BC9 /* littlepink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC9B60DB28BBC8CF00518BC9 /* littlepink.xcdatamodeld */; };
 		DC9B60DF28BBC8D100518BC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9B60DE28BBC8D100518BC9 /* Assets.xcassets */; };
 		DC9B60E228BBC8D100518BC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9B60E028BBC8D100518BC9 /* LaunchScreen.storyboard */; };
+		DCB8793D28C0C75700045C17 /* WaterfallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB8793C28C0C75700045C17 /* WaterfallVC.swift */; };
+		DCB8793F28C0CF5100045C17 /* WaterfallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB8793E28C0CF5100045C17 /* WaterfallCell.swift */; };
 		DCD1A09728BDFBB7006FAEF4 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A09628BDFBB7006FAEF4 /* HomeVC.swift */; };
 		DCD1A09928BE0133006FAEF4 /* FollowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A09828BE0133006FAEF4 /* FollowVC.swift */; };
 		DCD1A09B28BE014C006FAEF4 /* DiscoveryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1A09A28BE014C006FAEF4 /* DiscoveryVC.swift */; };
@@ -33,6 +35,8 @@
 		DC9B60DE28BBC8D100518BC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC9B60E128BBC8D100518BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC9B60E328BBC8D100518BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB8793C28C0C75700045C17 /* WaterfallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallVC.swift; sourceTree = "<group>"; };
+		DCB8793E28C0CF5100045C17 /* WaterfallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallCell.swift; sourceTree = "<group>"; };
 		DCD1A09628BDFBB7006FAEF4 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		DCD1A09828BE0133006FAEF4 /* FollowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowVC.swift; sourceTree = "<group>"; };
 		DCD1A09A28BE014C006FAEF4 /* DiscoveryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryVC.swift; sourceTree = "<group>"; };
@@ -84,25 +88,27 @@
 				DC9B60D228BBC8CF00518BC9 /* AppDelegate.swift */,
 				DC9B60D428BBC8CF00518BC9 /* SceneDelegate.swift */,
 				DC9B60D828BBC8CF00518BC9 /* Main.storyboard */,
-				DCD1A0A028BE0762006FAEF4 /* Home */,
+				DCB8793C28C0C75700045C17 /* WaterfallVC.swift */,
+				DCD1A0A028BE0762006FAEF4 /* home */,
 				DCD1A09E28BE05FF006FAEF4 /* Constants.swift */,
 				DC9B60DE28BBC8D100518BC9 /* Assets.xcassets */,
 				DC9B60E028BBC8D100518BC9 /* LaunchScreen.storyboard */,
 				DC9B60E328BBC8D100518BC9 /* Info.plist */,
 				DC9B60DB28BBC8CF00518BC9 /* littlepink.xcdatamodeld */,
+				DCB8793E28C0CF5100045C17 /* WaterfallCell.swift */,
 			);
 			path = littlepink;
 			sourceTree = "<group>";
 		};
-		DCD1A0A028BE0762006FAEF4 /* Home */ = {
+		DCD1A0A028BE0762006FAEF4 /* home */ = {
 			isa = PBXGroup;
 			children = (
-				DCD1A09C28BE0166006FAEF4 /* NearByVC.swift */,
+				DCD1A09628BDFBB7006FAEF4 /* HomeVC.swift */,
 				DCD1A09A28BE014C006FAEF4 /* DiscoveryVC.swift */,
 				DCD1A09828BE0133006FAEF4 /* FollowVC.swift */,
-				DCD1A09628BDFBB7006FAEF4 /* HomeVC.swift */,
+				DCD1A09C28BE0166006FAEF4 /* NearByVC.swift */,
 			);
-			path = Home;
+			path = home;
 			sourceTree = "<group>";
 		};
 		F33BDEEFF3103239A1945A56 /* Pods */ = {
@@ -230,6 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCD1A09D28BE0166006FAEF4 /* NearByVC.swift in Sources */,
+				DCB8793D28C0C75700045C17 /* WaterfallVC.swift in Sources */,
+				DCB8793F28C0CF5100045C17 /* WaterfallCell.swift in Sources */,
 				DC9B60D328BBC8CF00518BC9 /* AppDelegate.swift in Sources */,
 				DCD1A09728BDFBB7006FAEF4 /* HomeVC.swift in Sources */,
 				DCD1A09928BE0133006FAEF4 /* FollowVC.swift in Sources */,
